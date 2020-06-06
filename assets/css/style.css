@@ -9,7 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family: 'Cormorant Garamond', serif;
   color: #272829;
 }
 
@@ -23,7 +24,12 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
+  font-family: 'Cormorant Garamond', serif;
+
+}
+.section-title >h2 {
+  text-align:center;
 }
 
 /*--------------------------------------------------------------
@@ -87,7 +93,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
+  /*font-family: 'Cormorant Garamond', serif;*/
+  font-family: 'PT Serif', serif;
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
@@ -244,7 +252,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+ /* font-family: "Poppins", sans-serif;*/
+ font-family: 'PT Serif', serif;
 }
 
 #hero p span {
@@ -305,13 +314,33 @@ section {
   height: 3px;
   background: #149ddd;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  margin-left: -25px;
+  /*ADDED NEW*/
+  /*text-align: center;
+  margin: 0 auto;*/
 }
 
 .section-title p {
   margin-bottom: 0;
 }
-
+.pro-img {
+  margin-top: 50px;
+}
+.contact .contact-php-email-form button[type="submit"] {
+    background: #149ddd;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.contact .contact-php-email-form {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -405,7 +434,8 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
+  font-family: 'PT Serif', serif;
   color: #050d18;
 }
 
@@ -448,7 +478,8 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
+  font-family: 'PT Serif', serif;
   color: #050d18;
   margin-bottom: 10px;
 }
