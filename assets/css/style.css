@@ -1106,3 +1106,10 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 8px 15px;
+  }
