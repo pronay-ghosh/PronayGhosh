@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+allow: /
 Sitemap: https://pronayghosh.com/sitemap.xml
